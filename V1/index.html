@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>🏆 Bolão do Malacubaco</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<header>
+
+    <div class="logo">
+
+        🏆
+
+    </div>
+
+    <h1>
+
+        BOLÃO DO MALACUBACO
+
+    </h1>
+
+    <p>
+
+        Monte o pódio da Copa do Mundo
+
+    </p>
+
+    <input
+        type="text"
+        id="playerName"
+        placeholder="Seu nome">
+
+</header>
+
+
+<main>
+
+<section class="podium">
+
+    <div class="podium-title">
+
+        PÓDIO
+
+    </div>
+
+
+    <div class="podium-area">
+
+        <div
+            id="gold"
+            class="podium-card gold">
+
+            <div class="medal">
+
+                🥇
+
+            </div>
+
+            <div class="podium-image"></div>
+
+            <div class="podium-country">
+
+                Campeão
+
+            </div>
+
+        </div>
+
+
+
+        <div class="bottom">
+
+            <div
+                id="silver"
+                class="podium-card silver">
+
+                <div class="medal">
+
+                    🥈
+
+                </div>
+
+                <div class="podium-image"></div>
+
+                <div class="podium-country">
+
+                    Vice
+
+                </div>
+
+            </div>
+
+
+
+            <div
+                id="bronze"
+                class="podium-card bronze">
+
+                <div class="medal">
+
+                    🥉
+
+                </div>
+
+                <div class="podium-image"></div>
+
+                <div class="podium-country">
+
+                    Terceiro
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="players-grid">
+
+
+
+
+<div class="player-card"
+
+data-country="França"
+
+data-player="Mbappé">
+
+<img
+class="player-photo"
+
+src="assets/players/mbappe.png">
+
+<img
+class="flag"
+
+src="assets/flags/fr.svg">
+
+<h3>
+
+Mbappé
+
+</h3>
+
+<span>
+
+França
+
+</span>
+
+</div>
+
+
+
+
+<div class="player-card"
+
+data-country="Marrocos"
+
+data-player="Hakimi">
+
+<img
+class="player-photo"
+
+src="assets/players/hakimi.png">
+
+<img
+class="flag"
+
+src="assets/flags/ma.svg">
+
+<h3>
+
+Hakimi
+
+</h3>
+
+<span>
+
+Marrocos
+
+</span>
+
+</div>
+
+
+
+
+<div class="player-card"
+
+data-country="Espanha"
+
+data-player="Yamal">
+
+<img
+class="player-photo"
+
+src="assets/players/yamal.png">
+
+<img
+class="flag"
+
+src="assets/flags/es.svg">
+
+<h3>
+
+Lamine Yamal
+
+</h3>
+
+<span>
+
+Espanha
+
+</span>
+
+</div>
+
+
+
+
+<div class="player-card"
+
+data-country="Bélgica"
+
+data-player="De Bruyne">
+
+<img
+class="player-photo"
+
+src="assets/players/debruyne.png">
+
+<img
+class="flag"
+
+src="assets/flags/be.svg">
+
+<h3>
+
+De Bruyne
+
+</h3>
+
+<span>
+
+Bélgica
+
+</span>
+
+</div>
+
+
+
+
+<div class="player-card"
+
+data-country="Noruega"
+
+data-player="Haaland">
+
+<img
+class="player-photo"
+
+src="assets/players/haaland.png">
+
+<img
+class="flag"
+
+src="assets/flags/no.svg">
+
+<h3>
+
+Haaland
+
+</h3>
+
+<span>
+
+Noruega
+
+</span>
+
+</div>
+
+
+
+
+<div class="player-card"
+
+data-country="Inglaterra"
+
+data-player="Kane">
+
+<img
+class="player-photo"
+
+src="assets/players/kane.png">
+
+<img
+class="flag"
+
+src="assets/flags/gb-eng.svg">
+
+<h3>
+
+Harry Kane
+
+</h3>
+
+<span>
+
+Inglaterra
+
+</span>
+
+</div>
+
+
+
+
+<div class="player-card"
+
+data-country="Argentina"
+
+data-player="Messi">
+
+<img
+class="player-photo"
+
+src="assets/players/messi.png">
+
+<img
+class="flag"
+
+src="assets/flags/ar.svg">
+
+<h3>
+
+Messi
+
+</h3>
+
+<span>
+
+Argentina
+
+</span>
+
+</div>
+
+
+
+
+<div class="player-card"
+
+data-country="Suíça"
+
+data-player="Xhaka">
+
+<img
+class="player-photo"
+
+src="assets/players/xhaka.png">
+
+<img
+class="flag"
+
+src="assets/flags/ch.svg">
+
+<h3>
+
+Xhaka
+
+</h3>
+
+<span>
+
+Suíça
+
+</span>
+
+</div>
+
+</section>
+
+</main>
+<!-- CARD DE COMPARTILHAMENTO -->
+<div id="shareCard">
+
+    <div class="shareHeader">
+
+        🏆
+
+        <h2>Bolão do Malacubaco</h2>
+
+        <p id="shareName"></p>
+
+    </div>
+
+    <div class="sharePodium">
+
+        <div class="shareItem gold">
+
+            <span>🥇 Campeão</span>
+
+            <img id="shareGoldImg">
+
+            <h3 id="shareGoldPlayer"></h3>
+
+            <p id="shareGoldCountry"></p>
+
+        </div>
+
+        <div class="shareItem silver">
+
+            <span>🥈 Vice</span>
+
+            <img id="shareSilverImg">
+
+            <h3 id="shareSilverPlayer"></h3>
+
+            <p id="shareSilverCountry"></p>
+
+        </div>
+
+        <div class="shareItem bronze">
+
+            <span>🥉 Terceiro</span>
+
+            <img id="shareBronzeImg">
+
+            <h3 id="shareBronzePlayer"></h3>
+
+            <p id="shareBronzeCountry"></p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<footer class="actions">
+
+    <button id="copyButton" class="primary">
+        🖼 Compartilhar Pódio
+    </button>
+
+    <button id="rulesButton">
+        📖 Regras
+    </button>
+
+    <button id="resetButton">
+        🔄 Reiniciar
+    </button>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
